@@ -1,0 +1,38 @@
+.questionnaire {
+  input {
+    width: 100%;
+    height: 40px;
+    padding-left: 15px;
+    font-size: 30px;
+    background-color: #dbb049;
+    color: white;
+    border-color: white;
+    input::placeholder {
+      color: white;
+      font-size: 1.5em;
+    }
+  }
+  .correct {
+    width: 100%;
+    height: 40px;
+    padding-left: 15px;
+    font-size: 30px;
+    background-color: #49db69;
+    color: white;
+    border-color: green;
+  }
+
+  .incorrect {
+    width: 100%;
+    height: 40px;
+    padding-left: 15px;
+    font-size: 30px;
+    background-color: #fd0000;
+    color: white;
+    border-color: red;
+  }
+
+  input::placeholder {
+    color: white;
+  }
+}

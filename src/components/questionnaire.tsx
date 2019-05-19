@@ -16,7 +16,7 @@ class Questionnaire extends React.Component<IProps, IState> {
     const input = event.target.value;
     const finalInput = parseInt(input, 10);
     if (finalInput === 7) {
-      this.setState({ correct: true, feedback: "YAAAAAS U GOT IT GAL" });
+      this.setState({ correct: true, feedback: "Yeah, you got it!" });
     } else if (finalInput > 7) {
       this.setState({
         correct: false,
